@@ -92,7 +92,7 @@ Do note that creation of this reference database does not include any dereplicat
 
 When downloading the bold database, the download commands have been split into lower-level taxa (e.g. dipteran families) for allowing download to complete (maximum 1 million sequences can be downloaded in a single command). Pay attention when using the taxonlist provided, it currently shrinks in size as your download progresses - i.e., the file depletes itselfas you succesfully download. This also updates the counts of taxa required for download and missing to be downloaded.
 
-To build this database, make sure your environment is activated and run the following script.
+## To build this database, make sure your environment is activated and run the following script.
 
 ```
 bash Make_RefDB_LerayXT.sh
@@ -130,8 +130,14 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 3) Tele02-R 5′-GGGTATCTAATCCCAGTTTG-3′ (Taberlet et al., 2018)
 4) Elas02-R 5′-CATAGTAGGGTATCTAATCCTAGTTTG-3′ (Taberlet et al., 2018)
 
+## To build this database, run the following script.
+
+```
+bash Make_RefDB_MiFish.sh
+```
+
 ## The pre-curation:
-1) The pre-curation has focused on species existing in Nordic countries ((Denmark, Finland, Iceland, Norway incl. the Svalbard archipelago, and Sweden, along with the autonomous territories of the Faroe Islands and Greenland))
+1) The pre-curation has focused on species existing in Nordic countries (Denmark, Finland, Iceland, Norway incl. the Svalbard archipelago, and Sweden, along with the autonomous territories of the Faroe Islands and Greenland)
 2) A list of blacklisted accession numbers will be automatically removed as part of the script.
 3) All hybrid specimen accessions and other non-informative identifications have been removed from manual inspections of fish families that exist in Nordic countries (i.e., a "*Gadus* sp." sequence would be removed if an identical "*Gadus morhua*" sequence was present, but retained if not.)
 4) Certain accessions are being reinstated post-crabs-filtering. This is primarily because they do not survive the 92 % similarity to other existing sequences during the global pairwise alignment step, and since they do not contain the priming sites. I manually trawled through all the species from Nordic countries and fetched those extra taxa that could be retrieved this way (in instances where the species would otherwise be missing).
@@ -142,12 +148,6 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 
 ## The post-curation database check:
 Knowing the limits and biases of your reference database is equally important to the efforts going into building it. I've here compiled a list of all fish species known to occur in Nordic countries (see below). This list should be the starting point when inferring taxonomic identities from sequences representing eDNA samples collected in Nordic countries. It includes valid species names, but also includes known synonyms for CTRL+F matching purposes. It lists how many barcodes are present each species for this genetic region, the amount of unique sequences per species, primer mismatches to the UiT-version of the MiFish-primers, as well as a list of countries from which the species have been reported. Finally, it includes notes on discriminatory power for the barcode and other useful information on uncertainties and within-species sequence disparities.
-
-To build this database, run the following script.
-
-```
-bash Make_RefDB_MiFish.sh
-```
 
 ## Fishes present in Nordic countries
 #### Table of all fish species found in the Nordic countries. All names are reported with Eschmeyer's Catalog of Fishes as the taxonomic authority (Fricke et al., 2025), and synonyms have been added when encountered in GenBank or elsewhere. The list has been made by combining information from FishBase country lists of species occurrences. It has been supplemented with additions to the Danish fish fauna from Jensen et al. (2022), the Greenland fauna from Jensen et al. (2023) and Møller et al. (2010), and the Norwegian/Arctic fauna by Mecklenburg et al. (2018). Additionally, the Norwegian fish fauna has been supplemented with curated records from the Institute of Marine Research bottom trawl surveys (2004-2021, "NOR-BTS_clean.RData"), as incorporated into [FishGlob](https://github.com/fishglob/FishGlob_data/) (Maureaud et al., 2021, Maureaud et al., 2024). Note that countries listed in brackets under Distribution have uncertainty associated with them.
