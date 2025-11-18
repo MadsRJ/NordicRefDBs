@@ -63,16 +63,6 @@ crabs -h
 - At present, there are two different reference databases supported here. One for COI (broad eukaryote) and one for 12S (vertebrates).
 - Both of these scripts are bash wrappers around the standard CRABS-commands with additional filtering steps and modifications. These scripts essentially follow the crabs GitHub recommendations most of the way, but do not follow their recommendations completely.
 
-# Known bugs & icky things in the code #
-
-- When downloading the bold database, the download commands have been split into lower-level taxa for allowing download to complete (maximum 1 million sequences can be downloaded in a single command). with matching dipteran families etc. Careful when using the taxonlist provided, it currently shrinks in size as your download progresses. The file depletes itself. (The file gets deconstructed as you succesfully download. This also updates the counts of taxa required for download and missing to be downloaded)
-- The blacklist filtering step currently takes a long time to run for the 12S reference database - consider relying on the premade version of the database or brace yourself with an overnight run of the code.
-- The database is generated with a datestamp of the folder - pay attention to this if updating the reference database overnight.
-- I did not test what happens if you want to blacklist the last sequence of the fasta file (either bold or ncbi download) - code likely breaks.
-- For the COI database, there was a bug "ERROR | Error running makeblastdb BLAST Database creation error: Error: Duplicate seq_ids are found: GB|EU148067, aborting analysis...". I can't seem to find out why this duplicate arises, but I just deleted it as part of the script. 
-- Ensure to update your email in the script (for NCBI)
-- As a note to myself, I should probably look into including representative bacterial sequences in this reference database, as co-amplification of prokaryotes is likely to occur when amplifying this genetic region.
-
 # COI reference database for the "Leray" or "Leray-XT" marker
 
 ## Key features
@@ -98,14 +88,22 @@ On my setup, it takes ~12-14 hours from start of download to database completion
 To create this monstrosity of a reference database, you obviously need patience. At the time of writing, it downloads >14 million sequences from [BOLD](https://boldsystems.org/) and >1.2 million sequences from [NCBIs nt database](https://www.ncbi.nlm.nih.gov/nuccore/?term=). 
 Generating this database is unfortunately not as smooth-sailing as one could hope for, and this is largely due to heavy traffic on the BOLD servers.
 
-Do note that creation of this reference database does not include any dereplication (as suggested by the CRABS software developers). I mainly use the [MetaBarFlow](https://github.com/evaegelyng/MetaBarFlow/tree/master) pipeline for analyzing metabarcoding data, and the downstream taxonomic identification script takes into account the amount of hits to each taxon for a given query sequence. 
-This would clearly not be possible if the input file for creating the reference database has been dereplicated.
+Do note that creation of this reference database does not include any dereplication (as suggested by the CRABS software developers). I mainly use the [MetaBarFlow](https://github.com/evaegelyng/MetaBarFlow/tree/master) pipeline for analyzing metabarcoding data, and the downstream taxonomic identification script takes into account the amount of hits to each taxon for a given query sequence. This would clearly not be possible if the input file for creating the reference database has been dereplicated. 
+
+When downloading the bold database, the download commands have been split into lower-level taxa (e.g. dipteran families) for allowing download to complete (maximum 1 million sequences can be downloaded in a single command). Pay attention when using the taxonlist provided, it currently shrinks in size as your download progresses - i.e., the file depletes itselfas you succesfully download. This also updates the counts of taxa required for download and missing to be downloaded.
 
 To build this database, make sure your environment is activated and run the following script.
 
 ```
 bash Make_RefDB_LerayXT.sh
 ```
+
+Notes:
+1) The above script is likely to break during the download - if it fails, simply run the above command again until completion. 
+2) The database is generated with a datestamp on the directory housing all the relevant files - pay attention to this if updating the reference database overnight, where the current date will change.
+3) There was a bug "ERROR | Error running makeblastdb BLAST Database creation error: Error: Duplicate seq_ids are found: GB|EU148067, aborting analysis...". I can't seem to find out why this duplicate arises, but I just deleted the second entry as part of the script.
+4) Ensure to update your email in the script (for NCBI)
+
 
 Once the database is built, you can perform blast searches against the database. An example blast search could look like below. **Note that 1)** The prefix of your database has to be specified (in this case "BLAST_TAX_COI", so not just the path to the directory in which the database is found). **2)** You can replace "OUTFILE.blasthits" and "INPUTFILE.fasta" with I/O names that match your files.
 ```
@@ -117,6 +115,8 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 
 ## Key features
 #### Targeting ~167-182 bp of the mitochondrially encoded 12S ribosomal RNA (12S rRNA) gene
+#### Optimized and heavily curated for eDNA analysis of samples from Nordic countries
+#### Works just fine for samples taken outside Nordic regions, but has less curation.
 #### F-primer: Either of the below listings.
 1) MiFish-U-F (UiT mod.) 5′-GCCGGTAAAACTCGTGCCAGC-3′ (Sales et al., 2019)
 2) MiFish-U-F 5′-GTCGGTAAAACTCGTGCCAGC-3′ (Miya et al., 2015)
@@ -130,11 +130,18 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 3) Tele02-R 5′-GGGTATCTAATCCCAGTTTG-3′ (Taberlet et al., 2018)
 4) Elas02-R 5′-CATAGTAGGGTATCTAATCCTAGTTTG-3′ (Taberlet et al., 2018)
 
-##
+## The pre-curation:
+1) The pre-curation has focused on species existing in Nordic countries ((Denmark, Finland, Iceland, Norway incl. the Svalbard archipelago, and Sweden, along with the autonomous territories of the Faroe Islands and Greenland))
+2) A list of blacklisted accession numbers will be automatically removed as part of the script.
+3) All hybrid specimen accessions and other non-informative identifications have been removed from manual inspections of fish families that exist in Nordic countries (i.e., a "*Gadus* sp." sequence would be removed if an identical "*Gadus morhua*" sequence was present, but retained if not.)
+4) Certain accessions are being reinstated post-crabs-filtering. This is primarily because they do not survive the 92 % similarity to other existing sequences during the global pairwise alignment step, and since they do not contain the priming sites. I manually trawled through all the species from Nordic countries and fetched those extra taxa that could be retrieved this way (in instances where the species would otherwise be missing).
+5) Known synonymy issues of Nordic species are resolved using genus/species names as currently accepted by Eschmeyer's Catalog of Fishes (Fricke et al., 2025).
+6) Family, order and class-level taxonomies of species existing in Nordic countries have been updated to reflect those currently accepted by Eschmeyer's Catalog of Fishes (Fricke et al., 2025). **THIS IS NOT FUNCTIONAL YET**
+7) For all Nordic species, subspecies identifications (i.e. more than one taxID per species) have been reverted back to respective species taxIDs. This genetic region does not have discriminatory power at the subspecies level anyway.
+8) I generally allow 1 ambiguous basepair when building the database, just not for species occurring in Nordic countries (i.e. those are blacklisted).
 
-This should be an example of a deeply curated database for fish! Mads, make sure to include a dereplication step - `--dereplication-method` with `unique_species` works exactly as I had hoped for.
-Notes to self:
-- I generally allow 1 ambiguous basepair, just not for selected species occurring in Nordic countries.
+## The post-curation database check:
+Knowing the limits and biases of your reference database is equally important to the efforts going into building it. I've here compiled a list of all fish species known to occur in Nordic countries (see below). This list should be the starting point when inferring taxonomic identities from sequences representing eDNA samples collected in Nordic countries. It includes valid species names, but also includes known synonyms for CTRL+F matching purposes. It lists how many barcodes are present each species for this genetic region, the amount of unique sequences per species, primer mismatches to the UiT-version of the MiFish-primers, as well as a list of countries from which the species have been reported. Finally, it includes notes on discriminatory power for the barcode and other useful information on uncertainties and within-species sequence disparities.
 
 To build this database, run the following script.
 
@@ -142,8 +149,8 @@ To build this database, run the following script.
 bash Make_RefDB_MiFish.sh
 ```
 
-## Extra database curation and support for fishes present in Nordic countries (Denmark, Finland, Iceland, Norway incl. the Svalbard archipelago, and Sweden, along with the autonomous territories of the Faroe Islands and Greenland)
-#### Table of all fish species found in the Nordic countries, along with information on whether or not they exist in the reference database, the amount of unique sequences per species, primer mismatches to the UiT-version of the MiFish-primers, as well as a list of countries from which the species have been reported. All names are reported with Eschmeyer's Catalog of Fishes as the taxonomic authority (Fricke et al., 2025), and synonyms have been added when encountered in GenBank or elsewhere. The list has been made by combining information from FishBase country lists of species occurrences. It has been supplemented with additions to the Danish fish fauna from Jensen et al. (2022), the Greenland fauna from Jensen et al. (2023) and Møller et al. (2010), and the Norwegian/Arctic fauna by Mecklenburg et al. (2018). Additionally, the Norwegian fish fauna has been supplemented with curated records from the Institute of Marine Research bottom trawl surveys (2004-2021, "NOR-BTS_clean.RData"), as incorporated into [FishGlob](https://github.com/fishglob/FishGlob_data/) (Maureaud et al., 2021, Maureaud et al., 2024). Note that countries listed in brackets under Distribution have uncertainty associated with them.
+## Fishes present in Nordic countries
+#### Table of all fish species found in the Nordic countries. All names are reported with Eschmeyer's Catalog of Fishes as the taxonomic authority (Fricke et al., 2025), and synonyms have been added when encountered in GenBank or elsewhere. The list has been made by combining information from FishBase country lists of species occurrences. It has been supplemented with additions to the Danish fish fauna from Jensen et al. (2022), the Greenland fauna from Jensen et al. (2023) and Møller et al. (2010), and the Norwegian/Arctic fauna by Mecklenburg et al. (2018). Additionally, the Norwegian fish fauna has been supplemented with curated records from the Institute of Marine Research bottom trawl surveys (2004-2021, "NOR-BTS_clean.RData"), as incorporated into [FishGlob](https://github.com/fishglob/FishGlob_data/) (Maureaud et al., 2021, Maureaud et al., 2024). Note that countries listed in brackets under Distribution have uncertainty associated with them.
 
 | Class          | Order              | Family               | Subfamily         | Species                           | Common name                   | Known synonyms                                            | Present in database | Unique sequences | Mismatch F-primer | Mismatch R-primer | Distribution                      | Notes             |
 |----------------|--------------------|----------------------|-------------------|-----------------------------------|-------------------------------|-----------------------------------------------------------|---------------------|------------------|-------------------|-------------------|-----------------------------------|-------------------|
@@ -746,6 +753,11 @@ bash Make_RefDB_MiFish.sh
 | Actinopteri    | Tetraodontiformes  | Molidae              |                   | *Mola mola*                       | Ocean sunfish                 |                                                           | 12                  |                  | 0                 | 0                 | DEN, ICE, NOR, SWE                |                   |
 | Actinopteri    | Tetraodontiformes  | Balistidae           |                   | *Balistes capriscus*              | Grey triggerfish              |                                                           | 5                   |                  | 0                 | 0                 | DEN, NOR, SWE                     |                   |
 | Actinopteri    | Tetraodontiformes  | Balistidae           |                   | *Canthidermis maculata*           | Rough triggerfish             |                                                           | 8                   |                  | 0                 | 0                 | SWE                               |                   |
+
+# Known bugs & icky things in the code #
+
+- I did not test what happens if you want to blacklist the last sequence of the fasta file (either bold or ncbi download) - code likely breaks.
+- As a note to myself, I should probably look into including representative bacterial sequences in this reference database, as co-amplification of prokaryotes is likely to occur when amplifying this genetic region.
 
 ## 🧩 Contributors 🧩
 
