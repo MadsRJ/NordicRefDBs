@@ -1,0 +1,606 @@
+MT937103	NCBI	ITS+	Acer platanoides
+MT796493	NCBI	ITS+	Acer platanoides
+MT610920	NCBI	ITS+	Agoseris glauca
+MG235756	NCBI	ITS+	Cerastium terrae-novae
+MH547522	NCBI	ITS+	Conyza bonariensis
+MG215853	NCBI	ITS+	Cyperus bipartitus
+MG216739	NCBI	ITS+	Cyperus bipartitus
+KU568518	NCBI	ITS+	Fagus grandifolia subsp. mexicana
+MF348994	NCBI	ITS+	Krigia sp. VanNeste
+MG219822	NCBI	ITS+	Krigia virginica
+MG218406	NCBI	ITS+	Krigia virginica
+MG234585	NCBI	ITS+	Lathyrus latifolius
+MG217618	NCBI	ITS+	Limosella aquatica
+KY780581	NCBI	ITS+	Olea europaea
+MG235219	NCBI	ITS+	Persicaria hydropiper
+EF526406	NCBI	ITS+	Potamogeton amplifolius
+MT796538	NCBI	ITS+	Prunus padus
+MG235215	NCBI	ITS+	Rumex acetosa
+MG235306	NCBI	ITS+	Sabulina dawsonensis
+MG236182	NCBI	ITS+	Sagina caespitosa
+KP294365	NCBI	ITS+	Salvia virgata
+KC691716	NCBI	ITS+	Stellaria sp. SJ-2014
+KP231344	NCBI	ITS+	Stephania tetrandra
+KP231343	NCBI	ITS+	Stephania tetrandra
+MT735334	NCBI	ITS+	Torilis japonica
+MT784075	NCBI	ITS+	Torilis japonica
+LR827668	NCBI	COI	Agraylea multipunctata
+MG216495	NCBI	ITS+	Carex woodii
+MG235826	NCBI	ITS+	Ulmus rubra
+DQ277638	NCBI	ITS+	Iris dichotoma
+DQ277645	NCBI	ITS+	Iris pseudacorus
+DQ277641	NCBI	ITS+	Iris uniflora
+DQ277640	NCBI	ITS+	Iris ruthenica
+MG216203	NCBI	ITS+	Carex sylvatica
+MG235686	NCBI	ITS+	Amelanchier canadensis
+DQ662323	NCBI	COI	Stomoxys calcitrans
+DQ662324	NCBI	COI	Stomoxys calcitrans
+MT103905	NCBI	12S	Artediellus atlanticus
+LC278199	NCBI	12S	Lycodes terranovae
+LC579403	NCBI	12S	Polyipnus astroides
+FJ525330	NCBI	COI	Neoscona arabesca
+JN380205	NCBI	mtDNA	Cebus apella
+KJ129498	NCBI	COI	Musca sorbens
+KT957951	NCBI	COI	Blatta orientalis
+LR827819	NCBI	COI	Agraylea multipunctata
+JX412795	NCBI	mtDNA	Habrocerus capillaricornis
+KM578798	NCBI	COI	Trogoderma variabile
+GU672895	NCBI	COI	Arethusana arethusa
+MK861017	NCBI	COI	Bradysia impatiens
+KR044874	NCBI	COI	Megaloceroea recticornis
+MT862425	NCBI	mtDNA	Leptothorax acervorum
+GU657328	NCBI	COI	Dypterygia dolens
+GU657327	NCBI	COI	Coenipeta medina
+GU657326	NCBI	COI	Coenipeta medina
+GU657330	NCBI	COI	Coenipeta medina
+GU657332	NCBI	COI	Coenipeta medina
+KF652215	NCBI	COI	Adia asiatica
+KU923121	NCBI	COI	Bradysia vagans
+GU672878	NCBI	COI	Erebia meolans
+OL664300	NCBI	COI	Eurydema gebleri
+OL664299	NCBI	COI	Eurydema gebleri
+OL664298	NCBI	COI	Eurydema gebleri
+MH020498	NCBI	COI	Chilocorus renipustulatus
+MH020491	NCBI	COI	Amphimallon solstitiale
+MH020490	NCBI	COI	Amphimallon solstitiale
+JX626142	NCBI	COI	Oxytelus sculptus
+KX161644	NCBI	COI	Hemilucilia semidiaphana
+OK560143	NCBI	COI	Dermestes coarctatus
+GU673054	NCBI	COI	Pyrgus carthami
+MT993496	NCBI	COI	Anopheles claviger
+KJ630248	NCBI	COI	Ectrychotes lingnanensis
+KX262770	NCBI	COI	Eurydema gebleri
+OL664337	NCBI	COI	Platambus fimbriatus
+AM706512	NCBI	COI	Yoldiella philippiana
+MH247968	NCBI	COI	Cylicostephanus calicatus
+MZ398236	NCBI	mtDNA	Epistrophe lamellata
+MK919097	NCBI	COI	Entomobrya nivalis
+LR827675	NCBI	COI	Agraylea multipunctata
+KF393212	NCBI	COI	Idaea halmaea
+MH020491	NCBI	COI	Amphimallon solstitiale
+MH020490	NCBI	COI	Amphimallon solstitiale
+JF323039	NCBI	COI	Curinus coeruleus
+MPCAN016-17	BOLD	COI	Platylomalus aequalis
+SICOC425-18	BOLD	COI	Poecilobothrus regalis
+SPGUT060-16	BOLD	COI	Scaptomyza pallida
+ARONZ631-20	BOLD	COI	Tigrosa helluo
+FCHAR2474-19	BOLD	COI	Schizocosa saltatrix
+MHSYR299-07	BOLD	COI	Platycheirus unknown sp.
+GBCLS1961-19	BOLD	COI	Amphimallon solstitiale
+LYMAD368-19	BOLD	COI	Phaonia alticola
+OM509542	NCBI	12S	Lepidorhombus whiffiagonis
+LC579065	NCBI	12S	Urophycis tenuis
+NC_004409	NCBI	mtDNA	Lycodes toyamensis // Icelus toyamensis
+OR637291	NCBI	mtDNA	Lampetra ayresii voucher RBCM:16438
+MH037011	NCBI	mtDNA	Trichiurus lepturus
+MH363710	NCBI	mtDNA	Acanthopagrus schlegelii x Pagrus major
+MK112875	NCBI	mtDNA	Acanthopagrus schlegelii x Pagrus major
+MK182268	NCBI	mtDNA	Acanthopagrus schlegelii x Pagrus major
+NC_040957	NCBI	mtDNA	Acanthopagrus schlegelii x Pagrus major
+NC_036675	NCBI	mtDNA	Acipenser gueldenstaedtii x Acipenser baerii
+KY231189	NCBI	mtDNA	Acipenser gueldenstaedtii x Acipenser baerii
+NC_063963	NCBI	mtDNA	Acipenser schrenckii x Acipenser baerii
+OK094491	NCBI	mtDNA	Acipenser schrenckii x Acipenser baerii
+NC_036420	NCBI	mtDNA	Acipenser dabryanus x Acipenser schrenckii
+MF958972	NCBI	mtDNA	Acipenser dabryanus x Acipenser schrenckii
+NC_027522	NCBI	mtDNA	Acipenser schrenckii x Huso dauricus
+KR059905	NCBI	mtDNA	Acipenser schrenckii x Huso dauricus
+MT249227	NCBI	mtDNA	Culter alburnus x Megalobrama terminalis
+NC_052699	NCBI	mtDNA	Culter alburnus x Megalobrama terminalis
+MZ597900	NCBI	12S	Bolinichthys sp. FLMOO088
+MF198464	NCBI	mtDNA	Carassius auratus x Megalobrama amblycephala x Carassius cuvieri
+NC_035976	NCBI	mtDNA	Carassius auratus x Megalobrama amblycephala x Carassius cuvieri
+PQ278909	NCBI	mtDNA	Carassius cuvieri x Carassius auratus red var.
+LC069410	NCBI	12S	Carassius sp. 'Ginbuna'
+LC069411	NCBI	12S	Carassius sp. 'Ginbuna'
+LC193180	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552364	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552370	NCBI	12S	Carassius sp. 'Ginbuna'
+GQ303444	NCBI	mtDNA	natural gynogenetic Carassius auratus red var.
+NC_012980	NCBI	mtDNA	natural gynogenetic Carassius auratus red var.
+LC049911	NCBI	12S	Carassius sp. 'Ginbuna'
+LC765847	NCBI	mtDNA	Carassius sp. sensu Hosoya, 2013
+LC091586	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552363	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552365	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552366	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552367	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552368	NCBI	12S	Carassius sp. 'Ginbuna'
+LC552369	NCBI	12S	Carassius sp. 'Ginbuna'
+LC020956	NCBI	12S	Carassius sp. HUMZ:222861
+LC742188	NCBI	12S	Carassius sp. IDEA_Fish426
+OR582682	NCBI	mtDNA	Myctophidae sp.
+OP931204	NCBI	12S	Coregonus sp. NMBE 1070834
+AP011238	NCBI	mtDNA	Cyprinus sp. CBM ZF 11624
+AP012151	NCBI	mtDNA	Discogobio sp. ZF-11728
+LC049903	NCBI	12S	Garra sp. CBM:ZF:12700
+KM508828	NCBI	mtDNA	Hemibarbus sp. 090914
+NC_034784	NCBI	mtDNA	Huso dauricus x Acipenser schrenckii
+KY132098	NCBI	mtDNA	Huso dauricus x Acipenser schrenckii
+KY126320	NCBI	mtDNA	Hypophthalmichthys nobilis x Hypophthalmichthys molitrix
+NC_034667	NCBI	mtDNA	Hypophthalmichthys nobilis x Hypophthalmichthys molitrix
+OQ656298	NCBI	mtDNA	Kareius bicoloratus x Platichthys stellatus
+LC743615	NCBI	mtDNA	Lampanyctus sp. HUMZ:222529
+LC743620	NCBI	mtDNA	Lampanyctus sp. NSMT:P:91533
+LC743611	NCBI	mtDNA	Lampanyctus sp. CBM:ZF:22569-1
+LC743616	NCBI	mtDNA	Lampanyctus sp. HUMZ:222545
+MZ597980	NCBI	12S	Lampanyctus sp. FLMOO_1210
+OP931185	NCBI	12S	Coregonus sp. Bodenbalchen
+KT375339	NCBI	mtDNA	Coregonus sp. 'cluncaformis'
+NC_028198	NCBI	mtDNA	Coregonus sp. 'cluncaformis'
+OP931200	NCBI	12S	Coregonus sp. Fishec 169784
+OP931201	NCBI	12S	Coregonus sp. Fishec 169820
+OP931202	NCBI	12S	Coregonus sp. Fishec 170085
+OP931203	NCBI	12S	Coregonus sp. Fishec 170121
+OP931213	NCBI	12S	Coregonus sp. NMBE 1066780
+OP931219	NCBI	12S	Coregonus sp. NMBE 1066783
+OP931205	NCBI	12S	Coregonus sp. NMBE 1067311
+OP931210	NCBI	12S	Coregonus sp. NMBE 1067312
+OP931209	NCBI	12S	Coregonus sp. NMBE 1070687
+OP931208	NCBI	12S	Coregonus sp. NMBE 1070689
+OP931207	NCBI	12S	Coregonus sp. NMBE 1074127
+OP931192	NCBI	12S	Coregonus sp. Sarnerfelchen
+OP931211	NCBI	12S	Coregonus sp. Schwebbalchen Vierwaldstaettersee
+OP931212	NCBI	12S	Coregonus sp. Vierwaldstattersee
+OP931225	NCBI	12S	Coregonus sp. Zugeralbeli
+OP931226	NCBI	12S	Coregonus sp. Zugeralbeli
+OP931227	NCBI	12S	Coregonus sp. Zugeralbeli
+OP931228	NCBI	12S	Coregonus sp. Zugeralbeli
+OP931229	NCBI	12S	Coregonus sp. Zugeralbeli
+OP931214	NCBI	12S	Coregonus sp. zugerbalchen
+OP931215	NCBI	12S	Coregonus sp. zugerbalchen
+OP931216	NCBI	12S	Coregonus sp. zugerbalchen
+OP931217	NCBI	12S	Coregonus sp. zugerbalchen
+OP931218	NCBI	12S	Coregonus sp. zugerbalchen
+KT851548	NCBI	mtDNA	Megalobrama amblycephala x (Megalobrama amblycephala x Megalobrama terminalis)
+NC_036034	NCBI	mtDNA	Megalobrama amblycephala x (Megalobrama amblycephala x Megalobrama terminalis)
+KT851546	NCBI	mtDNA	Megalobrama amblycephala x (Megalobrama amblycephala x Parabramis pekinensis)
+NC_036033	NCBI	mtDNA	Megalobrama amblycephala x (Megalobrama amblycephala x Parabramis pekinensis)
+KP025957	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama hoffmanni
+NC_026118	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama hoffmanni
+KT851551	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama pellegrini
+KY511045	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama pellegrini
+NC_028224	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama pellegrini
+KT347220	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama skolkovii
+NC_028173	NCBI	mtDNA	Megalobrama amblycephala x Megalobrama skolkovii
+KT851553	NCBI	mtDNA	(Megalobrama amblycephala x Megalobrama terminalis) x (Megalobrama amblycephala x Megalobrama terminalis)
+KT851549	NCBI	mtDNA	(Megalobrama amblycephala x Parabramis pekinensis) x Megalobrama amblycephala
+KT851552	NCBI	mtDNA	(Megalobrama amblycephala x Parabramis pekinensis) x (Megalobrama amblycephala x Parabramis pekinensis)
+MK577778	NCBI	mtDNA	Megalobrama amblycephala x Elopichthys bambusa
+NC_050397	NCBI	mtDNA	Megalobrama amblycephala x Elopichthys bambusa
+KT316879	NCBI	mtDNA	Megalobrama skolokovii x Megalobrama amblycephala
+NC_028172	NCBI	mtDNA	Megalobrama skolokovii x Megalobrama amblycephala
+KP772253	NCBI	mtDNA	Megalobrama terminalis x Megalobrama amblycephala
+NC_029752	NCBI	mtDNA	Megalobrama terminalis x Megalobrama amblycephala
+MK250422	NCBI	mtDNA	Misgurnus anguillicaudatus x Misgurnus bipartitus
+NC_043847	NCBI	mtDNA	Misgurnus anguillicaudatus x Misgurnus bipartitus
+MG938589	NCBI	mtDNA	Misgurnus anguillicaudatus x Paramisgurnus dabryanus
+LC579376	NCBI	12S	Misgurnus sp. OK
+PV915188	NCBI	mtDNA	Misgurnus sp.
+OR859449	NCBI	12S	Crenimugil sp. C JDD-2024 voucher LTV_CH_36
+OR859448	NCBI	12S	Crenimugil sp. A JDD-2024 voucher LTV_CH_24
+LC681797	NCBI	mtDNA	Notoscopelus sp. HUMZ:222547
+AP012117	NCBI	mtDNA	Opsariichthys sp. ZF-11309
+MT130395	NCBI	mtDNA	Oxygymnocypris stewartii x Schizopygopsis younghusbandi
+KR069116	NCBI	mtDNA	Acanthopagrus schlegelii x Pagrus major
+MG735453	NCBI	mtDNA	Misgurnus anguillicaudatus x Paramisgurnus dabryanus
+MK714038	NCBI	mtDNA	Paramisgurnus dabryanus ssp. GZ-2021 x Misgurnus bipartitus
+AF488519	NCBI	12S	Perca sp. BD-2002
+NC_080270	NCBI	mtDNA	Kareius bicoloratus x Platichthys stellatus
+OQ656297	NCBI	mtDNA	Kareius bicoloratus x Platichthys stellatus
+NC_080271	NCBI	mtDNA	Platichthys stellatus x (Kareius bicoloratus x Platichthys stellatus)
+OQ656299	NCBI	mtDNA	Platichthys stellatus x (Kareius bicoloratus x Platichthys stellatus)
+LC145951	NCBI	12S	Platichthys stellatus x Parophrys vetulus
+NC_082285	NCBI	mtDNA	Platichthys stellatus x Verasper variegatus
+OR282488	NCBI	mtDNA	Platichthys stellatus x Verasper variegatus
+LC519473	NCBI	12S	Rhodeus sp. CBM:ZF:17866
+NC_030327	NCBI	mtDNA	Scaphirhynchus albus x Scaphirhynchus platorynchus
+KU985078	NCBI	mtDNA	Scaphirhynchus albus x Scaphirhynchus platorynchus
+KU985077	NCBI	mtDNA	Scaphirhynchus albus x Scaphirhynchus platorynchus
+KU985072	NCBI	mtDNA	Scaphirhynchus albus x Scaphirhynchus platorynchus
+MK105912	NCBI	mtDNA	Schizothorax oconnori x Schizothorax waltoni
+JX559740	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+JX559741	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+JX559742	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+JX559743	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+JX559744	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+JX559746	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+NC_021392	NCBI	mtDNA	Scomberomorus munroi x Scomberomorus semifasciatus
+MW024378	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 7 TL-2022
+MW024377	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 5 TL-2022
+MW024376	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 6 TL-2022
+MZ781221	NCBI	mtDNA	Sinocyclocheilus sp. DJ-2021
+MW024371	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 1 TL-2022
+MW024372	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 1 TL-2022
+MW024373	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 2 TL-2022
+MW024374	NCBI	mtDNA	UNVERIFIED: Sinocyclocheilus sp. 4 TL-2022
+MW574480	NCBI	mtDNA	Sinocyclocheilus sp. n. YK-2021
+LC069688	NCBI	12S	Stichaeus sp. HUMZ:205628
+AF381074	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381075	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381076	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381077	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381078	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381079	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381080	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381081	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF381082	NCBI	mtDNA	Acanthopagrus macrophthalmus / Acanthopagrus sp. CTJ-2008
+AF266503	NCBI	12S	Ariosoma shiroanago
+PP481388	NCBI	12S	Taenioides sp.
+PP481389	NCBI	12S	Taenioides sp.
+KR782298	NCBI	mtDNA	Acentrogobius sp. QHY-2015
+LC843962	NCBI	mtDNA	Acentrogobius sp. 2 sensu Akihito et al. 2013
+LC020804	NCBI	mtDNA	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+LC499496	NCBI	12S	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+LC506643	NCBI	12S	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+LC650577	NCBI	mtDNA	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+LC723787	NCBI	12S	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+LC738819	NCBI	mtDNA	Acentrogobius sp. TSUMAGURO-SUJIHAZE
+KF668288	NCBI	mtDNA	Acipenser sp. JNY-2013
+MW532081	NCBI	mtDNA	Acrossocheilus sp. LD-2022
+AP012524	NCBI	mtDNA	Anchoviella sp. CBM-ZF-12586
+OR581005	NCBI	mtDNA	Paralepididae sp. voucher USNM:FISH:444631
+OR582681	NCBI	mtDNA	Paralepididae sp.
+LC277769	NCBI	12S	Ariosoma sp. FRLM:36604
+LC091704	NCBI	12S	Astronesthes sp. HUMZ:222561
+OQ789447	NCBI	12S	Gobiidae sp.
+OQ789469	NCBI	12S	Gobiidae sp.
+OQ789480	NCBI	12S	Gobiidae sp.
+AP013327	NCBI	mtDNA	Bangana sp. CBM-ZF-11918
+OR268694	NCBI	mtDNA	Barbodes sp.
+EF100176	NCBI	mtDNA	Bathyraja sp. 2SPI
+OR832172	NCBI	mtDNA	Bathyraja sp. j BL-2024
+LC091739	NCBI	12S	Borostomias sp. CBM:ZF:14766
+LC385231	NCBI	mtDNA	Brotula sp. KAUM:I:88883
+OQ789502	NCBI	12S	Carangidae sp.
+OQ789444	NCBI	12S	Mugilidae sp. isolate Mug_101
+OQ789458	NCBI	12S	Mugilidae sp. isolate Mug_102
+OQ789467	NCBI	12S	Mugilidae sp. isolate Mug_106
+OQ789478	NCBI	12S	Mugilidae sp. isolate Mug_110
+OQ789479	NCBI	12S	Mugilidae sp. isolate Mug_111
+OQ789498	NCBI	12S	Mugilidae sp. isolate Mug_117
+OP057044	NCBI	mtDNA	Chiasmodon sp. voucher SIO:FISHES 06-10
+GU130598	NCBI	mtDNA	Chimaera sp. MNHN 2007-1555
+MZ605569	NCBI	12S	Cirripectes sp. OCNSW74
+LC146130	NCBI	12S	Cobitis sp. CBM:ZF:12873
+LC146138	NCBI	12S	Cobitis sp. CBM:ZF:13544
+LC146043	NCBI	12S	Cobitis sp. CBM:ZF:12840
+AP013307	NCBI	mtDNA	Cobitis sp. CBM-ZF-13198
+LC458074	NCBI	12S	Cobitis sp. CBM:ZF:18894
+GU382853	NCBI	12S	Coilia sp. JKK-2010 isolate PKU_420
+AP010867	NCBI	mtDNA	Thalassenchelys sp. Tht2
+NC_013618	NCBI	mtDNA	Thalassenchelys sp. Tht2
+LC021184	NCBI	12S	Coryphaenoides sp. CBM:ZF:14920
+OP931284	NCBI	12S	Cottus sp.
+OP931283	NCBI	12S	Cottus sp.
+OP931281	NCBI	12S	Cottus sp.
+OP931280	NCBI	12S	Cottus sp.
+OP931279	NCBI	12S	Cottus sp.
+OP931278	NCBI	12S	Cottus sp.
+OP931291	NCBI	12S	Cottus sp.
+OP931289	NCBI	12S	Cottus sp.
+OP931288	NCBI	12S	Cottus sp.
+OP931287	NCBI	12S	Cottus sp.
+OP931286	NCBI	12S	Cottus sp.
+OP931285	NCBI	12S	Cottus sp.
+OP931293	NCBI	12S	Cottus sp.
+OP931292	NCBI	12S	Cottus sp.
+OP931282	NCBI	12S	Cottus sp.
+OP931290	NCBI	12S	Cottus sp.
+LC193342	NCBI	12S	Cottus sp.
+LC850835	NCBI	12S	Cottus sp.
+LC850834	NCBI	12S	Cottus sp.
+LC315185	NCBI	12S	Cyema sp. JYP-2017
+MZ597982	NCBI	12S	Blenniidae sp. FLMOO_1216
+GU130619	NCBI	mtDNA	Etmopterus sp. B Last & Stevens, 1994
+GU130659	NCBI	mtDNA	Etmopterus sp. B Last & Stevens, 1994
+GU130660	NCBI	mtDNA	Etmopterus sp. B Last & Stevens, 1994
+ON185640	NCBI	mtDNA	Etmopterus sp. B SA-2022 isolate GN7398 
+LC499399	NCBI	12S	Eupleurogrammus sp. OSHIROI-DACHI
+LC315184	NCBI	12S	Eurypharynx sp. JYP-2017, specimen_voucher: WH404-906
+OP454409	NCBI	12S	Fontitrygon sp. CCMAR
+LC021224	NCBI	12S	Gigantactis sp. NMMBP:1333
+LC499509	NCBI	12S	Glossogobius sp. KAUM:I:117597
+KT698039	NCBI	mtDNA	Glyphis sp. Pakistan
+KT698045	NCBI	mtDNA	Glyphis sp. Pakistan
+NC_028337	NCBI	mtDNA	Glyphis sp. Pakistan
+PV053445	NCBI	12S	Gnatholepis sp.
+LC579311	NCBI	12S	Gnatholepis sp. KAUM:I:103528
+MK934712	NCBI	12S	Moridae sp. YHW-2019
+LC069640	NCBI	12S	Gymnelus sp. ZMUB:21424
+LC385303	NCBI	12S	Gymnogobius sp. HOKURIKU-JUZUKAKE-HAZE
+LC630828	NCBI	mtDNA	Gymnogobius sp. HOKURIKU-JUZUKAKE-HAZE
+LC630829	NCBI	mtDNA	Gymnogobius sp. HOKURIKU-JUZUKAKE-HAZE
+AF447992	NCBI	12S	Dasyatis sp. KCCL-2002
+LC091852	NCBI	12S	Himantolophus sp. CBM DNA No. 2005-014
+JN015526	NCBI	12S	Ictalurus sp. UM 105-1789
+MG917694	NCBI	mtDNA	Johnius sp. n. BL-2019 isolate FJDS20160317
+LC277819	NCBI	12S	Kryptopterus sp. MM-2017
+PP576125	NCBI	12S	Lentipes sp.
+AB974520	NCBI	12S	Lepidotrigla sp. NMMBP 1282
+OR482502	NCBI	mtDNA	Lophiidae sp. voucher USNM:FISH:455320
+LC859320	NCBI	mtDNA	Luciogobius sp.
+LC859321	NCBI	mtDNA	Luciogobius sp.
+LC859322	NCBI	mtDNA	Luciogobius sp.
+LC499440	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579335	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579336	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579337	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579339	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579340	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579341	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC579342	NCBI	12S	Luciogobius sp. 'bake-mimizu-haze'
+LC499447	NCBI	12S	Luciogobius sp. SHIMOFURI-MIMIZU-HAZE
+LC327202	NCBI	12S	Luciogobius sp. KAUM:I:94449
+LC859313	NCBI	mtDNA	Luciogobius sp.
+LC859310	NCBI	mtDNA	Luciogobius sp.
+LC859312	NCBI	mtDNA	Luciogobius sp.
+LC579353	NCBI	12S	Luciogobius sp. 'hauchiwa-yari-mimizu-haze'
+LC579354	NCBI	12S	Luciogobius sp. 'hauchiwa-yari-mimizu-haze'
+OQ789459	NCBI	12S	Macrouridae sp. isolate Mac_101
+OQ789468	NCBI	12S	Macrouridae sp. isolate Mac_102
+OQ789482	NCBI	12S	Macrouridae sp. isolate Mac_104
+OQ789484	NCBI	12S	Macrouridae sp. isolate Mac_105
+LC036775	NCBI	12S	Malacocottus sp. HUMZ:215076
+LC036776	NCBI	12S	Malacocottus sp. HUMZ:222544
+LC278232	NCBI	12S	Rhinogobius sp. KZ
+LC193279	NCBI	12S	Rhinogobius sp. OM
+LC742190	NCBI	12S	Rhinogobius sp. OM
+LC742212	NCBI	12S	Rhinogobius sp. OM
+LC742222	NCBI	12S	Rhinogobius sp. OM
+LC852806	NCBI	mtDNA	Rhinogobius sp. OM
+LC882220	NCBI	12S	Rhinogobius sp. OM
+LC104339	NCBI	mtDNA	Rhinogobius sp. OR
+LC104714	NCBI	mtDNA	Rhinogobius sp. OR
+LC146304	NCBI	12S	Rhinogobius sp. OR
+LC193165	NCBI	12S	Rhinogobius sp. OR
+LC193280	NCBI	12S	Rhinogobius sp. OR
+LC193300	NCBI	12S	Rhinogobius sp. OR
+LC193444	NCBI	12S	Rhinogobius sp. OR
+LC193445	NCBI	12S	Rhinogobius sp. OR
+LC708242	NCBI	mtDNA	Rhinogobius sp. OR
+LC713501	NCBI	mtDNA	Rhinogobius sp. OR
+LC713502	NCBI	mtDNA	Rhinogobius sp. OR
+LC713505	NCBI	mtDNA	Rhinogobius sp. OR
+LC713506	NCBI	mtDNA	Rhinogobius sp. OR
+LC715467	NCBI	mtDNA	Rhinogobius sp. OR
+LC719265	NCBI	mtDNA	Rhinogobius sp. OR
+LC722577	NCBI	mtDNA	Rhinogobius sp. OR
+LC722578	NCBI	mtDNA	Rhinogobius sp. OR
+LC742231	NCBI	12S	Rhinogobius sp. OR
+LC762645	NCBI	mtDNA	Rhinogobius sp. OR
+LC834786	NCBI	mtDNA	Rhinogobius sp. OR
+LC848703	NCBI	mtDNA	Rhinogobius sp. OR
+LC092051	NCBI	12S	Rhinogobius sp. OR CBM:ZF:15797
+ON357704	NCBI	mtDNA	Microphysogobio sp. l XY-2023
+AP012071	NCBI	mtDNA	Microphysogobio sp. ZF-11935
+KP677283	NCBI	mtDNA	Microphysogobio sp. XZ-2015
+NC_040303	NCBI	mtDNA	Microphysogobio sp. XZ-2015
+OQ789472	NCBI	12S	Mugilidae sp. isolate Mug_108
+DQ854644	NCBI	12S	Tetrapturus sp. JRM-2006
+AB022894	NCBI	12S	Mugilogobius sp. 1
+AP019361	NCBI	mtDNA	Mugilogobius sp. 'Izumi-Haze'
+LC069773	NCBI	12S	Mugilogobius sp. 'Izumi-Haze'
+LC519436	NCBI	12S	Mugilogobius sp. 'Izumi-Haze'
+OR397963	NCBI	mtDNA	Odontamblyopus sp. DK-2022
+KT633954	NCBI	mtDNA	Odontamblyopus sp. ZL-2016
+OL625024	NCBI	mtDNA	Taenioides sp. Ruosonghe
+OR188129	NCBI	mtDNA	Oreonectes sp. c XL-2024
+OQ789499	NCBI	12S	Mugilidae sp. isolate Mug_118
+LC499420	NCBI	12S	Paratrypauchen sp. KAUM:I:113116
+LC193318	NCBI	12S	Phoxinus sp. UAIC 14401.01
+AP012098	NCBI	mtDNA	Pimephales sp. MCZuncat
+OQ789471	NCBI	12S	Mugilidae sp. isolate Mug_107
+OQ789488	NCBI	12S	Mugilidae sp. isolate Mug_114
+LC049811	NCBI	12S	Pomatoschistus sp. CBM DNA No. 2008-358
+OR380153	NCBI	12S	Prionotus sp. RA02 voucher USNM:FISH:431062
+OR380424	NCBI	12S	Prionotus sp. RA02 voucher USNM:FISH:444656
+KY242356	NCBI	mtDNA	Liparidae sp.
+NC_063121	NCBI	mtDNA	Psedoliparis sp.
+OM763872	NCBI	mtDNA	Psedoliparis sp.
+OQ789466	NCBI	12S	Mugilidae sp. isolate Mug_105
+OQ789477	NCBI	12S	Mugilidae sp. isolate Mug_109
+OQ789483	NCBI	12S	Mugilidae sp. isolate Mug_113
+OQ789496	NCBI	12S	Mugilidae sp. isolate Mug_116
+LC193253	NCBI	12S	Pungitius sp. Freshwater type
+LC732528	NCBI	12S	Pungitius sp. Freshwater type CBM:ZF:17170
+LC732529	NCBI	12S	Pungitius sp. Freshwater type CBM:ZF:17241
+LC193252	NCBI	12S	Pungitius sp. Omono type
+LC713503	NCBI	mtDNA	Rhinogobius sp. OR
+LC713504	NCBI	mtDNA	Rhinogobius sp. OR
+LC719266	NCBI	mtDNA	Rhinogobius sp. OR
+MK270623	NCBI	mtDNA	Salvelinus fontinalis x Salvelinus malma
+NC_042195	NCBI	mtDNA	Salvelinus fontinalis x Salvelinus malma
+LC193411	NCBI	12S	Schistura sp. CBM ZF 11775
+AP004199	NCBI	mtDNA	Scopelarchus sp. Ausc01
+OP931666	NCBI	12S	Salmo sp. Blackspot
+OP931669	NCBI	12S	Salmo sp. Blackspot
+OP931672	NCBI	12S	Salmo sp. Blackspot
+OP931674	NCBI	12S	Salmo sp. Blackspot
+OP931676	NCBI	12S	Salmo sp. Blackspot
+OP931667	NCBI	12S	Salmo sp. Blackspot
+OP931668	NCBI	12S	Salmo sp. Blackspot
+OP931670	NCBI	12S	Salmo sp. Blackspot
+OP931671	NCBI	12S	Salmo sp. Blackspot
+OP931673	NCBI	12S	Salmo sp. Blackspot
+OP931675	NCBI	12S	Salmo sp. Blackspot
+OP931677	NCBI	12S	Salmo sp. Blackspot
+OP931678	NCBI	12S	Salmo sp. Blackspot
+OP931679	NCBI	12S	Salmo sp. Blackspot
+OP931680	NCBI	12S	Salmo sp. Blackspot
+OP931681	NCBI	12S	Salmo sp. Blackspot
+MW181766	NCBI	mtDNA	Salvelinus sp. 4 ADK-2017
+MW181767	NCBI	mtDNA	Salvelinus sp. 4 ADK-2017
+MW181768	NCBI	mtDNA	Salvelinus sp. 4 ADK-2017
+PQ423886	NCBI	mtDNA	Salvelinus sp. 7 sensu Bogutskaya, Naseka, 2004
+PQ423887	NCBI	mtDNA	Salvelinus sp. 7 sensu Bogutskaya, Naseka, 2004
+PQ423884	NCBI	mtDNA	Salvelinus sp.
+PQ423885	NCBI	mtDNA	Salvelinus sp.
+OP931725	NCBI	12S	Salvelinus sp. limnetic Thun
+OP931726	NCBI	12S	Salvelinus sp. limnetic Thun
+OP931727	NCBI	12S	Salvelinus sp. Limnetic Vierwaldstattersee
+OP931728	NCBI	12S	Salvelinus sp. profundal dwarf Thun
+OP931729	NCBI	12S	Salvelinus sp. Profundal dwarf Vierwaldstattersee
+OP931734	NCBI	12S	Salvelinus sp. Profundal dwarf Vierwaldstattersee
+OP931730	NCBI	12S	Salvelinus sp. profundal Walen I
+OP931731	NCBI	12S	Salvelinus sp. profundal Walen I
+OP931732	NCBI	12S	Salvelinus sp. profundal Walen I
+OP931733	NCBI	12S	Salvelinus sp. profundal Walen II
+OP931736	NCBI	12S	Salvelinus sp. Thunersee
+OP931735	NCBI	12S	Salvelinus sp. Vierwaldstattersee
+LC091864	NCBI	12S	Spiniphryne sp. CBM DNA No. 2005-013
+KJ888855	NCBI	mtDNA	Squalidus sp. SX-0527
+LC578888	NCBI	12S	Squalus sp. 'nagasaki-tsuno-zame' NSMT:P:72728
+AB974562	NCBI	mtDNA	Stenogobius sp. TANEKAWA-HAZE
+LC458319	NCBI	12S	Stenogobius sp. TANEKAWA-HAZE
+LC458320	NCBI	12S	Stenogobius sp. TANEKAWA-HAZE
+LC458321	NCBI	12S	Stenogobius sp. TANEKAWA-HAZE
+LC104713	NCBI	12S	Stiphodon sp. CBM:ZF:12387
+LC091720	NCBI	12S	Stomias sp. CBM:ZF:14696
+LC791103	NCBI	mtDNA	Stomias sp. CBM:ZF:15520
+LC340202	NCBI	12S	Suezichthys sp. KAUM:I:74032
+MK541900	NCBI	mtDNA	Taenioides sp. XM-2018
+AB938179	NCBI	12S	Trichiurus sp. TENJIKUTACHI
+AB938178	NCBI	12S	Trichiurus sp. OKINAWA-OOTACHI
+KT259195	NCBI	mtDNA	Triplophysa sp. 3 YW-2016
+KT213587	NCBI	mtDNA	Triplophysa sp. 2 YW-2016
+KT456271	NCBI	mtDNA	Triplophysa sp. TL-2016
+MH681778	NCBI	mtDNA	UNVERIFIED Triplophysa sp. d YJ-2019
+OR380488	NCBI	12S	Urophycis sp. voucher USNM:FISH:447312
+AP019315	NCBI	mtDNA	Vanderhorstia sp. 'Komon-yatsushi-haze'
+LC739784	NCBI	mtDNA	Vanderhorstia sp. 'Komon-yatsushi-haze'
+LC741216	NCBI	mtDNA	Vanderhorstia sp. 'Komon-yatsushi-haze'
+LC499458	NCBI	12S	Vanderhorstia sp. KOMON-YATSUSHI-HAZE
+KT213586	NCBI	mtDNA	Triplophysa sp. 1 YW-2016
+OP863204	NCBI	12S	Lycodes vahlii
+LC278198	NCBI	12S	Lycodes vahlii
+OP863200	NCBI	12S	Lycodes vahlii // Lycodes gracilis
+OP863199	NCBI	12S	Lycodes vahlii // Lycodes gracilis
+MW995362	NCBI	12S	Lycodes vahlii // Lycodes gracilis
+MT410895	NCBI	mtDNA	Lycodes vahlii
+LC579061	NCBI	12S	Coryphaenoides guentheri
+AY694420	NCBI	mtDNA	Hybrid
+AY771781	NCBI	mtDNA	Hybrid
+GQ903705	NCBI	mtDNA	Hybrid
+GQ903706	NCBI	mtDNA	Hybrid
+GQ903707	NCBI	mtDNA	Hybrid
+GU186888	NCBI	mtDNA	Hybrid
+HQ401008	NCBI	mtDNA	Hybrid
+JN105356	NCBI	mtDNA	Hybrid
+JX119017	NCBI	mtDNA	Hybrid
+JX125584	NCBI	mtDNA	Hybrid
+KC346973	NCBI	mtDNA	Hybrid
+KC351186	NCBI	mtDNA	Hybrid
+KP210473	NCBI	mtDNA	Hybrid
+KP218514	NCBI	mtDNA	Hybrid
+KP691029	NCBI	mtDNA	Hybrid
+KU146531	NCBI	mtDNA	Hybrid
+KU146532	NCBI	mtDNA	Hybrid
+MH599071	NCBI	mtDNA	Hybrid
+MK085972	NCBI	mtDNA	Hybrid
+MK085973	NCBI	mtDNA	Hybrid
+MK658748	NCBI	mtDNA	Hybrid
+MK688992	NCBI	mtDNA	Hybrid
+MK726305	NCBI	mtDNA	Hybrid
+MK726306	NCBI	mtDNA	Hybrid
+MK726307	NCBI	mtDNA	Hybrid
+NC_006136	NCBI	mtDNA	Hybrid
+NC_006387	NCBI	mtDNA	Hybrid
+NC_013430	NCBI	mtDNA	Hybrid
+NC_013431	NCBI	mtDNA	Hybrid
+NC_013433	NCBI	mtDNA	Hybrid
+NC_018038	NCBI	mtDNA	Hybrid
+NC_018134	NCBI	mtDNA	Hybrid
+NC_020466	NCBI	mtDNA	Hybrid
+NC_020467	NCBI	mtDNA	Hybrid
+NC_026537	NCBI	mtDNA	Hybrid
+NC_026543	NCBI	mtDNA	Hybrid
+NC_026870	NCBI	mtDNA	Hybrid
+NC_031807	NCBI	mtDNA	Hybrid
+NC_031808	NCBI	mtDNA	Hybrid
+NC_042402	NCBI	mtDNA	Hybrid
+PQ240357	NCBI	mtDNA	Hybrid
+PQ240358	NCBI	mtDNA	Hybrid
+PQ240359	NCBI	mtDNA	Hybrid
+PQ278910	NCBI	mtDNA	Hybrid
+PV257635	NCBI	mtDNA	Hybrid
+AP012262	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+LC579027	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+CM111294	NCBI	mtDNA	Notoscopelus elongatus / Notoscopelus kroyeri
+LC579057	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+OP863151	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+OQ883826	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+PP467868	NCBI	12S	Notoscopelus elongatus / Notoscopelus kroyeri
+DQ356936	NCBI	mtDNA	Boreogadus saida
+OR818176	NCBI	12S	Coregonus clupeaformis
+GU130652	NCBI	mtDNA	Etmopterus spinax
+DQ356937	NCBI	mtDNA	Gadus macrocephalus
+DQ356938	NCBI	mtDNA	Gadus macrocephalus
+DQ356940	NCBI	mtDNA	Gadus ogac
+KP644358	NCBI	12S	Gadus ogac
+DQ356941	NCBI	mtDNA	Gadus ogac
+AY147887	NCBI	mtDNA	Hexanchus griseus
+AY147894	NCBI	mtDNA	Isurus oxyrinchus
+MN122839	NCBI	mtDNA	Nerophis ophidion
+AF113119	NCBI	12S	Oncorhynchus keta
+MW652802	NCBI	12S	Phoxinus phoxinus
+OP931692	NCBI	12S	Salmo trutta
+OV522667	NCBI	12S	Squalius cephalus
+DQ356946	NCBI	mtDNA	Gadus chalcogrammus
+AY507952	NCBI	12S	Thunnus thynnus
+MT062996	NCBI	mtDNA	Thymallus thymallus
+KY249560	NCBI	mtDNA	Hybrid
+NC_034675	NCBI	mtDNA	Hybrid
+OP980560	NCBI	mtDNA	Hybrid
+MN396750	NCBI	mtDNA	Hybrid
+MT937084	NCBI	mtDNA	Hybrid
+NC_056997	NCBI	mtDNA	Hybrid
+KU981051	NCBI	mtDNA	Hybrid
+NC_030318	NCBI	mtDNA	Hybrid
+MW151226	NCBI	mtDNA	Hybrid
+MT709278	NCBI	mtDNA	Hybrid
+NC_053366	NCBI	mtDNA	Hybrid
+KM596849	NCBI	mtDNA	Hybrid
+NC_025930	NCBI	mtDNA	Hybrid
+KM401549	NCBI	mtDNA	Hybrid
+NC_025590	NCBI	mtDNA	Hybrid
+KJ094511	NCBI	mtDNA	Hybrid
+NC_024645	NCBI	mtDNA	Hybrid
+GU949545	NCBI	mtDNA	Hybrid
+NC_013994	NCBI	mtDNA	Hybrid
+HQ651067	NCBI	mtDNA	Hybrid
+NC_015838	NCBI	mtDNA	Hybrid
+KJ801831	NCBI	mtDNA	Hybrid
+NC_024623	NCBI	mtDNA	Hybrid
+KT851547	NCBI	mtDNA	Hybrid
+KT851545	NCBI	mtDNA	Hybrid
+KF927167	NCBI	mtDNA	Hybrid
+NC_023534	NCBI	mtDNA	Hybrid
+KT851550	NCBI	mtDNA	Hybrid
+MN604232	NCBI	mtDNA	Hybrid
+NC_047207	NCBI	mtDNA	Hybrid
+MW646291	NCBI	mtDNA	Hybrid
+GU949546	NCBI	mtDNA	Hybrid
+NC_013995	NCBI	mtDNA	Hybrid
+NC_082846	NCBI	mtDNA	Hybrid
+OR353704	NCBI	mtDNA	Hybrid
