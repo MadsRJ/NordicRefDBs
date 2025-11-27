@@ -770,7 +770,7 @@ Knowing the limits and biases of your reference database is equally important to
 # Known bugs & icky things in the code #
 
 - I did not test what happens if you want to blacklist the last sequence of the fasta file (either bold or ncbi download) - code likely breaks.
-- As a note to myself, I should probably look into including representative bacterial sequences in this reference database, as co-amplification of prokaryotes is likely to occur when amplifying this genetic region.
+- As a note to myself, I should probably look into including representative bacterial sequences in the COI reference database, as co-amplification of prokaryotes is likely to occur when amplifying this genetic region.
 
 ## 🧩 Contributors 🧩
 
