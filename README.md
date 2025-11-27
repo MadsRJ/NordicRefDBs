@@ -105,9 +105,9 @@ Notes:
 4) Ensure to update your email in the script (for NCBI)
 
 
-Once the database is built, you can perform blast searches against the database. An example blast search could look like below. **Note that 1)** The prefix of your database has to be specified (in this case "BLAST_TAX_COI", so not just the path to the directory in which the database is found). **2)** You can replace "OUTFILE.blasthits" and "INPUTFILE.fasta" with I/O names that match your files.
+Once the database is built, you can perform blast searches against the database. An example blast search could look like below. **Note that 1)** The prefix of your database has to be specified (in this case "BLAST_TAX_COI", so not just the path to the directory in which the database is found). **2)** You can replace "OUTFILE.blasthits.txt" and "INPUTFILE.fasta" with I/O names that match your files.
 ```
-blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcovs staxid sscinames" -out OUTFILE.blasthits -qcov_hsp_perc 90 -perc_identity 80 -query INPUTFILE.fasta
+blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcovs staxid sscinames" -out OUTFILE.blasthits.txt -qcov_hsp_perc 90 -perc_identity 80 -query INPUTFILE.fasta
 ```
 
 
