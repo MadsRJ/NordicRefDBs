@@ -330,8 +330,8 @@ if [ ! -f "$output_dir/BLAST_TAX_COI/BLAST_TAX_COI.nsq" ]; then
     --input "$output_dir"/FilteredRefs_CRABS.txt \
     --output "$output_dir"/BLAST_TAX_COI/BLAST_TAX_COI \
     --export-format 'blast-tax'
+	mv "$output_dir"/refs_sorted.txt "$output_dir"/BLAST_TAX_COI/refs_sorted.txt
 	print_green "[$current_datetime] Success! Enjoy your new reference database."
-
 else
     print_yellow "File $output_dir/BLAST_TAX_COI already exists. Skipping database export."
 fi
