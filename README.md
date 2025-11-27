@@ -116,6 +116,7 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 ## Key features
 #### Targeting ~167-182 bp of the mitochondrially encoded 12S ribosomal RNA (12S rRNA) gene
 #### Optimized and heavily curated for eDNA analysis of samples from Nordic countries
+#### Supports taxonomy from Eschmeyer's Catalog of Fishes (As per the update on 11th of Nov 2025, Fricke et al. (2025))
 #### Works just fine for samples taken outside Nordic regions, but has less curation.
 #### F-primer: Either of the below listings.
 1) MiFish-U-F (UiT mod.) 5′-GCCGGTAAAACTCGTGCCAGC-3′ (Sales et al., 2019)
@@ -136,18 +137,30 @@ blastn -db "path/to/BLAST_TAX_COI" -max_target_seqs 500 -outfmt "6 std qlen qcov
 bash Make_RefDB_MiFish.sh
 ```
 
+Once the database is built, you can perform blast searches against the database. An example blast search could look like below. **Note that 1)** The prefix of your database has to be specified (in this case "BLAST_TAX_12S", so not just the path to the directory in which the database is found). **2)** You can replace "OUTFILE.blasthits" and "INPUTFILE.fasta" with I/O names that match your files.
+```
+blastn -db "path/to/BLAST_TAX_12S" -max_target_seqs 500 -outfmt "6 std qlen qcovs staxid sscinames" -out OUTFILE.blasthits.txt -qcov_hsp_perc 90 -perc_identity 80 -query INPUTFILE.fasta
+```
+
+If you want to assign taxonomy using the Catalog of fishes compliant taxonomy described in the pre-curation steps below, you can match the accession numbers in the blast output with the "refs_sorted.txt" file found in your reference database folder. The example below adds the taxonomy for all hits, and you can work from there with whatever thresholds/filtering approach you want to use for your taxonomic assignment.
+
+```
+sort -k2,2 OUTFILE.blasthits.txt > tmp.blasthits.txt
+join -1 2 -2 1 -t $'\t' -o 1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10,1.11,1.12,1.13,1.14,1.15,2.2,2.3,2.4,2.5,2.6,2.7,2.8 tmp.blasthits.txt "path/to/refs_sorted.txt" | sort -t $'\t' -k1,1V -k3,3nr > OUTFILE.blasthits.with.taxonomy.txt
+```
+
 ## The pre-curation:
 1) The pre-curation has focused on species existing in Nordic countries (Denmark, Finland, Iceland, Norway incl. the Svalbard archipelago, and Sweden, along with the autonomous territories of the Faroe Islands and Greenland)
 2) A list of blacklisted accession numbers will be automatically removed as part of the script.
 3) All hybrid specimen accessions and other non-informative identifications have been removed from manual inspections of fish families that exist in Nordic countries (i.e., a "*Gadus* sp." sequence would be removed if an identical "*Gadus morhua*" sequence was present, but retained if not.)
 4) Certain accessions are being reinstated post-crabs-filtering. This is primarily because they do not survive the 92 % similarity to other existing sequences during the global pairwise alignment step, and since they do not contain the priming sites. I manually trawled through all the species from Nordic countries and fetched those extra taxa that could be retrieved this way (in instances where the species would otherwise be missing).
 5) Known synonymy issues of Nordic species are resolved using genus/species names as currently accepted by Eschmeyer's Catalog of Fishes (Fricke et al., 2025).
-6) Family, order and class-level taxonomies of all species have been updated to reflect those currently accepted by Eschmeyer's Catalog of Fishes (Fricke et al., 2025). This should be Genus+Family combinations, then Family + Order combinations, then Order + Class combinations. Do note that species not from Nordic countries will not have had a synonymy check prior to this step, so these will maybe fall in wrong categories. **THIS PART IS NOT FUNCTIONAL YET**
+6) Genus to family, family to order, and order to class taxonomies of all species have been updated to reflect those currently accepted by Eschmeyer's Catalog of Fishes (Fricke et al., 2025). Do note that species not found in Nordic countries will not have had a synonymy check prior to this step, so these will likely continue to be wrongly listed. As an example, *Psetta maxima* is a synonym for *Scophthalmus maximus*, which exists in the database. Had this species not been present in a Nordic country, the species and genus would not be correct, but the remainder of the taxonomic backbone would be. Since it is a species occurring in Nordic countries, it will be corrected to fully match the taxonomy from Eschmeyer's Catalog of Fishes.
 7) For all Nordic species, subspecies identifications (i.e. more than one taxID per species) have been reverted back to respective species taxIDs. This genetic region does not have discriminatory power at the subspecies level anyway.
 8) I generally allow 1 ambiguous basepair when building the database, just not for species occurring in Nordic countries (i.e. those are blacklisted).
 
 ## The post-curation database check:
-Knowing the limits and biases of your reference database is equally important to the efforts going into building it. I've here compiled a list of all fish species known to occur in Nordic countries (see below). This list should be the starting point when inferring taxonomic identities from sequences representing eDNA samples collected in Nordic countries. It includes valid species names, but also includes known synonyms for CTRL+F matching purposes. It lists how many barcodes are present per species for this marker, the amount of unique sequences per species, primer mismatches to the UiT-version of the MiFish-primers, as well as a list of countries from which the species have been reported. Finally, it includes notes on discriminatory power for the barcode and other useful information on uncertainties and within-species sequence disparities.
+Knowing the limits and biases of your reference database is equally important to the efforts going into building it. I've here compiled a list of all fish species known to occur in Nordic countries (see below). This list should be the starting point when inferring taxonomic identities from sequences representing eDNA samples collected in Nordic countries. It includes valid species names, but also includes known synonyms for CTRL+F matching purposes. It lists how many barcodes are present per species for this marker (approximately), the amount of unique sequences per species, primer mismatches to the UiT-version of the MiFish-primers, as well as a list of countries from which the species have been reported. Finally, it includes notes on discriminatory power for the barcode and other useful information on uncertainties and within-species sequence disparities.
 
 ## Fishes present in Nordic countries
 #### Table of all fish species found in the Nordic countries. All names are reported with Eschmeyer's Catalog of Fishes as the taxonomic authority (Fricke et al., 2025), and synonyms have been added when encountered in GenBank or elsewhere. The list has been made by combining information from FishBase country lists of species occurrences. It has been supplemented with additions to the Danish fish fauna from Jensen et al. (2022), the Greenland fauna from Jensen et al. (2023) and Møller et al. (2010), and the Norwegian/Arctic fauna by Mecklenburg et al. (2018). Additionally, the Norwegian fish fauna has been supplemented with curated records from the Institute of Marine Research bottom trawl surveys (2004-2021, "NOR-BTS_clean.RData"), as incorporated into [FishGlob](https://github.com/fishglob/FishGlob_data/) (Maureaud et al., 2021, Maureaud et al., 2024). Note that countries listed in brackets under Distribution have uncertainty associated with them.
