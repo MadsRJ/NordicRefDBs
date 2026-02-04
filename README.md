@@ -90,7 +90,7 @@ Generating this database is unfortunately not as smooth-sailing as one could hop
 
 Do note that creation of this reference database does not include any dereplication (as suggested by the CRABS software developers). I mainly use the [MetaBarFlow](https://github.com/evaegelyng/MetaBarFlow/tree/master) pipeline for analyzing metabarcoding data, and the downstream taxonomic identification script takes into account the amount of hits to each taxon for a given query sequence. This would clearly not be possible if the input file for creating the reference database has been dereplicated. 
 
-When downloading the bold database, the download commands have been split into lower-level taxa (e.g. dipteran families) for allowing download to complete (maximum 1 million sequences can be downloaded in a single command). Pay attention when using the taxonlist provided, it currently shrinks in size as your download progresses - i.e., the file depletes itselfas you succesfully download. This also updates the counts of taxa required for download and missing to be downloaded.
+When downloading the bold database, the download commands have been split into lower-level taxa (e.g. dipteran families) for allowing download to complete (maximum 1 million sequences can be downloaded in a single command). Pay attention when using the taxonlist provided, it currently shrinks in size as your download progresses - i.e., the file depletes itself as you succesfully download. This also updates the counts of taxa required for download and missing to be downloaded.
 
 ## To build this database, make sure your environment is activated and run the following script.
 
